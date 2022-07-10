@@ -1,0 +1,24 @@
+digraph G{
+rankdir=HR;
+node [shape="record", fontsize=14, style="filled", fillcolor="#ffff94"];
+edge [color="black", fontcolor="black", fontsize=12];
+
+
+root [shape="octagon", fontsize=20, fontcolor="black", style="filled", fillcolor="#ffb0aa", label="Tree"];
+ NumberOfElements = 0
+root->elem0x5574c3941dd0:<d>;
+elem0x5574c3941dd0 [label="<YES> YES | <d> Scared of lightning | <NO> NO "];
+elem0x5574c3941dd0:<YES>->elem0x5574c3941e20:<d>;
+elem0x5574c3941dd0:<NO>->elem0x5574c3941f10:<d>;
+elem0x5574c3941e20 [label="<YES> YES | <d> Clever | <NO> NO "];
+elem0x5574c3941e20:<YES>->elem0x5574c3941e70:<d>;
+elem0x5574c3941e20:<NO>->elem0x5574c3941ec0:<d>;
+elem0x5574c3941e70 [label="<d> Me"];
+elem0x5574c3941ec0 [label="<d> Dog"];
+elem0x5574c3941f10 [label="<YES> YES | <d> Fast | <NO> NO "];
+elem0x5574c3941f10:<YES>->elem0x5574c3941f60:<d>;
+elem0x5574c3941f10:<NO>->elem0x5574c3941fb0:<d>;
+elem0x5574c3941f60 [label="<d> car"];
+elem0x5574c3941fb0 [label="<d> Cat"];
+
+}

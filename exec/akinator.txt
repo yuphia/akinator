@@ -1,0 +1,21 @@
+{
+Scared of lightning
+  {
+  Clever
+    {
+    Me
+    }
+    {
+    Dog
+    }
+  }
+  {
+  Fast
+    {
+    car
+    }
+    {
+    Cat
+    }
+  }
+}
